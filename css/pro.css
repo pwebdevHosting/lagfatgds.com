@@ -1,0 +1,648 @@
+h3.capitalize {
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 0.1em;
+  text-indent: 0.2em;
+}
+
+h1, h2, h4, h5, h6, strong {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-indent: 0.2em;
+}
+@media only screen and (max-width: 800px) {
+  h1, h2, h3, h4, h5, h6, strong {
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+    white-space: normal;
+  }
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 42px;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+}
+
+strong {
+  letter-spacing: 0.125em;
+  text-indent: 0;
+}
+
+/*============================================================
+  Custom Styles FOR PRODUCTS CONTAINER
+============================================================*/
+.product-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.product-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .product-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.product-container h1 {
+  margin-bottom: 16px;
+}
+.product-container .product-subheader {
+  font-size: 18px;
+  line-height: 27px;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-indent: 0.2em;
+  margin: 16px auto 64px auto;
+  padding: 0;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .product-container .product-subheader {
+    margin: 16px auto 16px auto;
+  }
+}
+.product-container .product-subheader em {
+  font-style: normal;
+  color: #444444;
+}
+
+.product-images {
+  float: left;
+  margin: 0 0 32px 0;
+  overflow: hidden;
+  width: 60%;
+}
+@media screen and (max-width: 1024px) {
+  .product-images {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .product-images {
+    float: none;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+}
+
+.default-product-image {
+  display: block;
+  width: 100%;
+}
+.default-product-image img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  float: right;
+  margin: 0 0 64px;
+  padding-left: 32px;
+  width: 40%;
+  text-align: left;
+}
+@media screen and (max-width: 1024px) {
+  .product-description {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .product-description {
+    float: none;
+    margin-bottom: 32px;
+    padding-left: 0;
+    width: 100%;
+  }
+}
+.product-description a {
+  text-decoration: underline;
+}
+.product-description img, .product-description iframe {
+  max-width: 100%;
+}
+.product-description p {
+  margin-bottom: 16px;
+  padding: 0;
+  text-align: left;
+}
+.product-description p:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.product-description ul {
+  font-size: 14px;
+  line-height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  margin: 0;
+  padding: 0 16px;
+}
+.product-description ul li {
+  list-style-position: inside;
+}
+
+
+.product-thumbnails {
+  font-size: 0;
+  list-style: none;
+  margin: 20px -20px;
+  text-align: center;
+  padding: 0;
+}
+.product-thumbnails:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 800px) {
+  .product-thumbnails {
+    margin: 5px -10px;
+  }
+}
+.product-thumbnails li {
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: top;
+  width: 25%;
+}
+@media only screen and (max-width: 800px) {
+  .product-thumbnails li {
+    padding: 5px;
+  }
+}
+.product-thumbnails li a {
+  display: block;
+}
+.product-thumbnails li img {
+  display: block;
+  width: 100%;
+}
+
+.product-section-subheader {
+  border-bottom: 1px solid #e2e2e2;
+  margin: 32px auto;
+  padding: 16px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+
+/*============================================================
+  Custom Styles FOR FLOATING WHATSAPP BUTTON
+============================================================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;	
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.my-float{
+	margin-top:16px;
+	
+}
+/*============================================================
+  Custom Styles FOR CONTACTING FORM
+============================================================*/
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+ .button, submit, input[type='submit'], button1 {
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  display: inline-block;
+  font-weight: 600;
+  height: 56px;
+  line-height: 56px;
+  margin: 0;
+  padding: 0 16px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+}
+.button.minimal-button, submit.minimal-button, input[type='submit'].minimal-button, button.minimal-button {
+  background: none;
+  color: #111111;
+  border: none;
+  font-size: 13px;
+  padding: 0;
+  width: auto;
+}
+.button.minimal-button:not(:disabled):hover, .button.minimal-button:not(:disabled):active, .button.minimal-button:not(:disabled):focus, submit.minimal-button:not(:disabled):hover, submit.minimal-button:not(:disabled):active, submit.minimal-button:not(:disabled):focus, input[type='submit'].minimal-button:not(:disabled):hover, input[type='submit'].minimal-button:not(:disabled):active, input[type='submit'].minimal-button:not(:disabled):focus, button.minimal-button:not(:disabled):hover, button.minimal-button:not(:disabled):active, button.minimal-button:not(:disabled):focus {
+  -webkit-transform: none;
+  transform: none;
+  box-shadow: none;
+  background: none;
+  text-decoration: underline;
+}
+.button:not(:disabled):hover, .button:not(:disabled):active, .button:not(:disabled):focus, submit:not(:disabled):hover, submit:not(:disabled):active, submit:not(:disabled):focus, input[type='submit']:not(:disabled):hover, input[type='submit']:not(:disabled):active, input[type='submit']:not(:disabled):focus, button:not(:disabled):hover, button:not(:disabled):active, button:not(:disabled):focus {
+  background-color: #444444;
+}
+.button:disabled, .button.disabled, submit:disabled, submit.disabled, input[type='submit']:disabled, input[type='submit'].disabled, button:disabled, button.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+#contact .content {
+  max-width: 664px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+@media only screen and (max-width: 800px) {
+  #contact .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+#contact .content h1 {
+  margin: 0 auto 64px auto;
+}
+
+.contact-form-block {
+  display: block;
+  margin: 32px auto;
+  position: relative;
+}
+.contact-form-block input[type='text'], .contact-form-block textarea {
+  height: 50px;
+  padding: 8px;
+  text-indent: 0;
+  width: 100%;
+}
+.contact-form-block textarea {
+  height: 256px;
+}
+
+.contact-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.send-message-button {
+  display: block;
+  margin: 64px auto;
+  max-width: 320px;
+}
+@media screen and (max-width: 800px) {
+  .send-message-button {
+    margin-top: 32px;
+    max-width: 100%;
+  }
+}
+
+.recaptcha-note {
+  font-size: 14px;
+  line-height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  margin-top: 16px;
+}
+.recaptcha-note a {
+  text-decoration: underline;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
+.full-screen-overlay {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  padding: 96px 96px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.full-screen-overlay.open {
+  display: block;
+}
+button.close-overlay {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background: black;
+  height: 44px;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 44px;
+}
+button.close-overlay:hover, button.close-overlay:focus {
+  background: #222222;
+}
+button.close-overlay:hover .close-icon, button.close-overlay:focus .close-icon {
+  fill: white;
+}
+button.close-overlay .close-icon {
+  display: block;
+  fill: white;
+  height: 18px;
+  width: 18px;
+}
+
+
+
+
+/*============================================================
+  Custom Styles FOR PRODUCT LIST
+============================================================*/
+
+product-list-container {
+  margin: 0 6%;
+}
+@media screen and (max-width: 1024px) {
+  .product-list-container {
+    margin: 0 32px;
+  }
+}
+
+.product-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  margin: 0 1%;
+}
+@media screen and (max-width: 1024px) {
+  .product-list {
+    margin: 0 -24px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .product-list {
+    margin: 0 -16px;
+  }
+}
+
+.product-list-thumb {
+  color: #444444;
+  display: block;
+  font-size: 0;
+  padding: 16px 3%;
+  padding-bottom: 32px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: calc(100% / 3);
+  word-break: break-word;
+}
+@media screen and (max-width: 1024px) {
+  .product-list-thumb {
+    padding: 16px;
+    padding-bottom: 32px;
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 800px) {
+  .product-list-thumb {
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .product-list-thumb {
+    width: 100%;
+  }
+}
+
+_:-ms-fullscreen, :root .product-list-thumb {
+  width: calc(100% / 3 - .1px);
+}
+@media screen and (max-width: 1024px) {
+  _:-ms-fullscreen, :root .product-list-thumb {
+    width: calc(100% / 2 - .1px);
+  }
+}
+@media screen and (max-width: 500px) {
+  _:-ms-fullscreen, :root .product-list-thumb {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+.product-list-link {
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  color: #444444;
+  text-decoration: none;
+}
+.product-list-link:hover, .product-list-link:focus {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+.product-list-link:hover .product-list-thumb-name, .product-list-link:hover .product-list-thumb-price, .product-list-link:focus .product-list-thumb-name, .product-list-link:focus .product-list-thumb-price {
+  color: #1b1b1b;
+}
+
+.product-list-image-container {
+  overflow: hidden;
+  position: relative;
+}
+.product-list-image-container.product-list-image-container-default:before {
+  display: none;
+}
+.product-list-image-container:before {
+  display: block;
+  width: 100%;
+  content: "";
+  padding-bottom: 100%;
+  height: 0;
+}
+
+.product-list-image {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.product-list-image.grid-default {
+  position: relative;
+}
+.product-list-image.grid-cover {
+  object-fit: cover;
+}
+.product-list-image.grid-contain {
+  object-fit: contain;
+}
+
+.product-list-thumb-info {
+  font-size: 16px;
+  line-height: 1.25em;
+  padding: 16px 0;
+  position: relative;
+}
+
+.product-list-thumb-name {
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  color: #444444;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  position: relative;
+}
+
+.product-list-thumb-price {
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  color: #111111;
+  margin-top: 6px;
+}
+
+.product-list-thumb-status {
+  color: #444444;
+  display: inline-block;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+/*============================================================
+  Custom Styles - add and override styles below.
+============================================================*/
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 0px;
+  border-style: outset;
+  border-color: grey;
+  margin-top: 8px;
+  margin-left: 27px;	
+
+}
+
+@media screen and (max-width: 740px) {
+   .column {
+		float: left;
+		width: 30%;
+		padding: 0px;
+		border-style: outset;
+		border-color: grey;
+		margin-left: 10px;
+
+
+   }
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  clear: both;
+  display: table;
+}
+
+
+/*============================================================
+  Custom Styles for gallery page
+============================================================*/
+
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+   padding: 10px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	top:450px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
